@@ -906,10 +906,10 @@ const globalStyles = `
   }
 
   .main-header {
-      position: absolute; 
-      top: 50px; left: 0; right: 0; padding: 0 60px; 
-      display: flex; justify-content: space-between; align-items: center; 
-      z-index: 1000; 
+     position: absolute; /* Change this from 'fixed' to 'absolute' */
+    top: 50px; left: 0; right: 0; padding: 0 60px; 
+    display: flex; justify-content: space-between; align-items: center; 
+    z-index: 1000;
   }
 
   .header-left { flex: 1; display: flex; justify-content: flex-start; }
@@ -953,12 +953,19 @@ const globalStyles = `
   .b1 { width: 20px; height: 100px; } .b2 { width: 30px; height: 150px; } .b3 { width: 25px; height: 120px; } .b4 { width: 35px; height: 80px; } .b5 { width: 30px; height: 140px; }
   
   .logo-wrapper { 
-      position: absolute; 
-      top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1.2); 
-      transform-origin: top left; z-index: 1001; 
-      animation: moveToHeader 1.2s cubic-bezier(0.76, 0, 0.24, 1) 4.3s forwards; 
+      position: absolute; /* Change this from 'fixed' to 'absolute' */
+    top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1.2); 
+    transform-origin: top left; z-index: 1001; 
+    animation: moveToHeader 1.2s cubic-bezier(0.76, 0, 0.24, 1) 4.3s forwards;
   }
-  .logo-container { position: relative; width: 410px; height: 310px; }
+  .logo-container { position: relative; width: 410px; height: 310px;  }
+
+  @media (max-width: 768px) {
+    .logo-container {
+        margin-left: 250px; /* Shift left on smaller screens */
+    }
+
+
   .logo-part { position: absolute; background-color: #ffffff; }
   .red-dot { background-color: #E22028; width: 35px; height: 35px; top: 35px; rotate: 90deg; left: 30px; border-radius: 0 100% 0 0; animation: wipeLeftToRight 0.4s cubic-bezier(0.4, 0, 0.2, 1) both; }
   .t-crossbar { width: 100px; height: 35px; top: 80px; left: 0; animation: wipeLeftToRight 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both; }
