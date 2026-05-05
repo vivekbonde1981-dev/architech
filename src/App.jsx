@@ -45,10 +45,10 @@ const portfolioData = [
 ];
 
 const statsData = [
-  { icon: <Layers size={32} strokeWidth={1.2} />, title: "$1B", shortDesc: "in Global Assets Directed", longDesc: "Creative and fiduciary oversight across more than one billion dollars in capital expenditure — where brand ambition meets disciplined, high-value execution." },
-  { icon: <Store size={32} strokeWidth={1.2} />, title: "20+", shortDesc: "Global Flagships Launched", longDesc: "Market entry and creative rollouts across six continents, translating brand DNA into high-traffic retail environments that establish immediate authority in new markets." },
-  { icon: <Lightbulb size={32} strokeWidth={1.2} />, title: "20+", shortDesc: "Prototype Concepts", longDesc: "From market gap to physical prototype — defining the visual and operational DNA for new-to-market retail concepts built to last." },
-  { icon: <Star size={32} strokeWidth={1.2} />, title: "3", shortDesc: "Michelin Stars Housed", longDesc: "Designing the theatre of dining for the world's most demanding hospitality brands, where every aesthetic decision supports operational excellence and guest experience." }
+  { icon: <Layers size={32} strokeWidth={1.2} />, title: "10M+", shortDesc: "Sq. Ft. of Space Designed", longDesc: "Creative and fiduciary oversight across more than one billion dollars in capital expenditure — where brand ambition meets disciplined, high-value execution." },
+  { icon: <Store size={32} strokeWidth={1.2} />, title: "500+", shortDesc: "Luxury Units Delivered", longDesc: "Market entry and creative rollouts across six continents, translating brand DNA into high-traffic retail environments that establish immediate authority in new markets." },
+  { icon: <Lightbulb size={32} strokeWidth={1.2} />, title: "15+", shortDesc: "Years of Regional Excellence", longDesc: "From market gap to physical prototype — defining the visual and operational DNA for new-to-market retail concepts built to last." },
+  { icon: <Star size={32} strokeWidth={1.2} />, title: "5+", shortDesc: "IIA (Indian Institute of Architects) Awards", longDesc: "Designing the theatre of dining for the world's most demanding hospitality brands, where every aesthetic decision supports operational excellence and guest experience." }
 ];
 
 const brandsData = [
@@ -412,7 +412,7 @@ const ContactFooter = () => {
           <div className={`contact-info-list reveal-up ${isVisible ? 'is-visible' : ''}`} style={{ transitionDelay: '300ms' }}>
             <div className="contact-info-item">
               <MapPin size={20} />
-              <span>1204 Design Avenue, Nagpur, India 440010</span>
+              <span>Saptagiri plaza, beside Saptagiri banquite hall, G -12, Old Kautha, Maharashtra 431603</span>
             </div>
             <div className="contact-info-item">
               <Mail size={20} />
@@ -420,7 +420,7 @@ const ContactFooter = () => {
             </div>
             <div className="contact-info-item">
               <Phone size={20} />
-              <span>+91 98765 43210</span>
+              <span> 080879 04005</span>
             </div>
           </div>
         </div>
