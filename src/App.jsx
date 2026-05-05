@@ -962,7 +962,7 @@ const globalStyles = `
   .logo-part { position: absolute; background-color: #ffffff; }
   .red-dot { background-color: #E22028; width: 35px; height: 35px; top: 35px; rotate: 90deg; left: 30px; border-radius: 0 100% 0 0; animation: wipeLeftToRight 0.4s cubic-bezier(0.4, 0, 0.2, 1) both; }
   .t-crossbar { width: 100px; height: 35px; top: 80px; left: 0; animation: wipeLeftToRight 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both; }
-  .t-stem-straight { width: 35px; height: 60px; top: 90px; left: 30px; animation: wipeTopToBottom 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.4s both; }
+  .t-stem-straight { width: 35px; height: 66px; top: 90px; left: 30px; animation: wipeTopToBottom 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.4s both; }
   .t-stem-hook { background-color: transparent; width: 70px; height: 70px; top: 150px; left: 30px; border-left: 35px solid #ffffff; border-bottom: 35px solid #ffffff; border-bottom-left-radius: 70px; animation: wipeTopToBottom 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.7s both; }
   .a-ring { background-color: transparent; width: 140px; height: 140px; top: 80px; left: 105px; border: 35px solid #ffffff; border-radius: 50%; animation: wipeLeftToRight 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.9s both; }
   .a-stem { width: 35px; height: 140px; top: 80px; left: 220px; animation: wipeTopToBottom 0.4s cubic-bezier(0.4, 0, 0.2, 1) 1.2s both; }
