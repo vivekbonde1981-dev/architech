@@ -960,10 +960,7 @@ const globalStyles = `
   }
   .logo-container { position: relative; width: 410px; height: 310px;  }
 
-  @media (min-width: 768px) {
-    .logo-container {
-        margin-left: 250px; /* Shift left on smaller screens */
-    }
+  
 
 
   .logo-part { position: absolute; background-color: #ffffff; }
